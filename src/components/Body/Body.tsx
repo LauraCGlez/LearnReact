@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Body = () => {
     const buttons = [
-        {id: 1, text: "Go to Caselapinga"},
+        {id: 1, text: "Go to Address"},
         {id: 2, text: "Second Button"},
         {id: 3, text: "Third Button"},
     ];

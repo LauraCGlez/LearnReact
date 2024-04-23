@@ -11,7 +11,7 @@ const Address = () => {
 
     return (
         <div>
-            <h1>Welcome to Caselapinga</h1>
+            <h1>Welcome to Address</h1>
             <Button
                 id="counter-btn"
                 text={"Go back"}
