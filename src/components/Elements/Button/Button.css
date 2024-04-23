@@ -1,0 +1,36 @@
+.button {
+    font-weight: bold;
+    height: 3rem;
+    width: fit-content;
+    min-width: 7rem;
+    padding: 1rem;
+    background-color: lightyellow;
+    border: 0.15rem solid transparent;
+    transition: 0.25s
+}
+
+.button--shape--default {
+    border-radius: 0;
+}
+.button--shape--round {
+    border-radius: 2rem;
+}
+
+/* Colors */
+.button--light {
+    background-color: var(--color-purple-light);
+}
+.button--medium {
+    background-color: var(--color-purple-medium);
+}
+.button--dark {
+    color: white;
+    background-color: var(--color-purple-dark);
+    &:hover {
+        color: black;
+        background-color: var(--color-purple-light);
+    }
+    &:active {
+        background-color: var(--color-purple-medium);
+    }
+}

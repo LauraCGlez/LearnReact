@@ -1,0 +1,15 @@
+.navbar {
+}
+.navbar__logo-section {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: 5rem;
+}
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    svg {
+        font-size: 1.5rem;
+    }
+}
